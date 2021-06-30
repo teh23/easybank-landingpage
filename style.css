@@ -9,6 +9,9 @@
     --neutral-bright-grey: hsl(0, 0%, 98%);
 
     --white: hsl(0, 0%, 100%);
+
+    --header-height: 3.5em;
+    background-color: aquamarine;
 }
 * {
     margin: 0;
