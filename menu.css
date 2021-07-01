@@ -20,7 +20,10 @@ li a {
     .hamburger {
         display: none;
     }
-}
+    .item:hover {
+        border-bottom: 3px solid var(--primary-cyan);
+    }
+
 
 @media screen and (max-width: 1000px) {
     .navbar-overlay {

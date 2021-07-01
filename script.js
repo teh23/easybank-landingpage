@@ -1,7 +1,7 @@
+const menu = document.querySelector(".menu");
+const overlay = document.querySelector(".navbar-overlay");
+const burger = document.getElementById("hamburger");
 document.getElementById("hamburger").onclick = function () {
-    const menu = document.querySelector(".menu");
-    const overlay = document.querySelector(".navbar-overlay");
-    const burger = document.getElementById("hamburger");
     if (!menu.classList.contains("display")) {
         menu.classList.add("display");
         overlay.classList.add("display");
