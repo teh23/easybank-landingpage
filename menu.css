@@ -24,7 +24,6 @@ li a {
 
 @media screen and (max-width: 1000px) {
     .navbar-overlay {
-        display: none;
         position: absolute;
         background: linear-gradient(
             180deg,
@@ -39,7 +38,6 @@ li a {
         z-index: 100;
     }
     .menu {
-        display: none !important;
         top: calc(var(--header-height) + 1em);
         left: 1.5em;
         right: 1.5em;
