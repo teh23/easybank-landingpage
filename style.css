@@ -29,7 +29,7 @@ body {
     }
 }
 .display {
-    display: none !important;
+    display: flex !important;
 }
 
 .container {
